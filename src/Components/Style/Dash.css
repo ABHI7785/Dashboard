@@ -1,0 +1,678 @@
+
+
+.sidebarmain {
+    font-family: 'serif';
+    box-shadow: 0px 0px 15px grey;
+    height: 37rem;
+    width: 11.37rem;
+}
+
+.sidebar_maindiv {
+    width: 180px;
+    height: 180px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.Sidebar_img {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    align-items: center;
+    position: relative;
+    left: 28%;
+    margin-top: 15px;
+}
+
+.sidelog {
+    text-align: center;
+    color: blue;
+    background-color: rgb(228, 244, 252);
+    font-weight: bold;
+    border: 1px solid rgb(208, 206, 206);
+    top: 110px;
+}
+
+.sidemenu {
+    font-weight: bold;
+    border: 1px solid rgb(208, 206, 206);
+}
+
+:where(.css-dev-only-do-not-override-18iikkb).ant-menu-light .ant-menu-item-selected,
+:where(.css-dev-only-do-not-override-18iikkb).ant-menu-light>.ant-menu .ant-menu-item-selected {
+    background-color: rgb(155, 219, 254);
+    color: black;
+}
+
+:where(.css-dev-only-do-not-override-18iikkb).ant-menu-vertical .ant-menu-item {
+    width: calc(100% - 20px);
+    margin-inline: -5px;
+}
+
+.icon {
+    color: rgb(25, 104, 224);
+}
+
+.divider {
+    width: calc(80% -20px);
+    background-color: rgb(186, 218, 247);
+    border-left: 100px solid white;
+    border-bottom: 100px solid transparent;
+    margin-left: 180px;
+    top: 0;
+}
+
+.mainsec {
+    border: 0px solid black;
+    position: absolute;
+    mix-blend-mode: color-burn;
+}
+
+.mainsec1 {
+    border: 0px solid black;
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    margin-top: 20px;
+    right: 110px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 6px;
+    display: inline-flex;
+    font-size: 12px;
+
+    @media (max-width:1000px) {
+        right: 45px;
+    }
+
+}
+
+.mainsec2 {
+    border: 0px solid black;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    margin-top: 20px;
+    right: 60px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 6px;
+
+    @media (max-width:1000px) {
+        display: none;
+    }
+}
+
+.mainsec1 img {
+    height: 30px;
+    width: 30px;
+    transform: translate(10px, 5px);
+    border-radius: 100%;
+}
+
+.mainsec2 p{
+text-align: center;
+transform: translate(0,-5px);
+
+}
+
+.mainsec1 p {
+    transform: translate(25px, 0);
+    font-weight: 700;
+    font-family: cursive;
+}
+
+
+
+.olstyle {
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.ol {
+    list-style: none;
+
+}
+
+.datadiv {
+    width: 84%;
+    position: absolute;
+    left: 12%;
+    top: 120px;
+}
+
+.headh2 {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 50%;
+    position: absolute;
+    font-family: sans-serif;
+}
+
+.datadiv2 {
+    width: 3.8%;
+    position: absolute;
+    right: 0;
+    top: 100px;
+    background-color: rgb(186, 218, 247);
+    height: 606px;
+
+    @media (max-width:1510px) {
+        display: none;
+    }
+}
+
+.datadivsub {
+    display: flex;
+}
+
+.pricedetail {
+    width: 300px;
+    height: fit-content;
+    margin-left: 101px;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 6px;
+    margin-top: 20px;
+    text-align: left;
+
+    &:hover {
+        transform: scale(1.1);
+        background-color: #f2f7f9;
+    }
+}
+
+.listpara {
+    padding-left: 20px;
+    font-size: 10px;
+    color: black;
+    font-weight: 500;
+    padding-top: 10px;
+
+}
+
+.listprice {
+    padding-left: 20px;
+    padding-top: 5px;
+    font-size: 10px;
+}
+
+.notifispan {
+    margin-left: 10px;
+    box-shadow: 4px 5px -5px grey;
+}
+
+.notifi {
+    border: 1px solid white;
+    padding: 14px;
+    background: white;
+    color: blue;
+}
+
+.blankspace {
+    border: 1px solid white;
+    background: white;
+    width: 30px;
+    margin-left: 27px;
+    margin-top: 350px;
+    height: 120px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.addbutton {
+    border: 1px solid #96c7e6;
+    background: #96c7e6;
+    width: 30px;
+    margin-left: 27px;
+    margin-top: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.topplan {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 25px;
+    width: 190px;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 79%;
+    padding-left: 5px;
+}
+
+.topplanbutton {
+    border: 0;
+    border-radius: 10px;
+    margin-top: 2px;
+    height: 20px;
+    width: 90px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.topplanbutton:active {
+    background-color: #4ba5dd;
+}
+
+.sup {
+    position: absolute;
+    transform: translate(-25px, 4px);
+    border: 1px solid red;
+    height: 15px;
+    width: 12px;
+    border-radius: 6px;
+    padding-left: 3px;
+    background-color: red;
+    color: #f2f7f9;
+}
+
+.getstrbut {
+    margin-left: 20px;
+    border: 0;
+    border-radius: 3px;
+}
+
+.explore {
+    padding-left: 20px;
+    font-size: small;
+    color: black;
+    font-weight: bold;
+}
+
+
+.details2 {
+    width: fit-content;
+    margin-left: 100px;
+    margin-top: 20px;
+    display: inline-flex;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 6px;
+    padding-right: 10px;
+}
+
+.buttondown1 {
+    margin-left: 20px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #a3dd4b;
+    width: 120px;
+    height: 25px;
+    margin-top: 10px;
+
+    &:hover {
+        transform: translate(-5px, -5px);
+    }
+}
+
+.buttondown1-2 {
+    margin-left: 20px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #a3dd4b;
+    font-size: 9px;
+}
+
+.buttondown2 {
+    margin-left: 20px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #79cafc;
+    width: 120px;
+    height: 25px;
+    margin-top: 10px;
+
+    &:hover {
+        transform: translate(-5px, -5px);
+    }
+}
+
+.buttondown2-2 {
+    margin-left: 20px;
+    border: 0;
+    border-radius: 6px;
+    background-color: #79cafc;
+    font-size: 9px;
+}
+
+.detailhead {
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.deatil2ol1 {
+    list-style: none;
+    width: 180px;
+
+}
+
+.deatil2ol1-1 {
+    list-style: none;
+    width: 200px;
+}
+
+.deatil2ol2 {
+    list-style: none;
+    width: 220px;
+}
+
+.deatil2ol2-2 {
+    list-style: none;
+    width: 220px;
+    margin-top: 45px;
+}
+
+
+
+@media (max-width:480px) {
+
+    .mainsec1 {
+        width: 50px;
+        right: 20px;
+    }
+
+    .mainsec1 p {
+        display: none;
+    }
+
+    .headh2 {
+        width: 80%;
+        top: 3rem;
+        text-align: center;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    .topplan {
+        height: 25px;
+        width: 190px;
+        padding-left: 5px;
+        margin-left: 3%;
+    }
+
+    .sidebarmain {
+        display: none;
+    }
+
+    .datadiv {
+        width: 100%;
+        left: 0;
+    }
+
+    .datadivsub {
+        display: block;
+        margin-top: 80px;
+    }
+
+    .pricedetail {
+        width: 95%;
+        height: 280px;
+        padding-top: 10px;
+        margin-left: 8px;
+        margin-right: 9px;
+    }
+
+
+
+    .details2 {
+        width: 90%;
+        margin-left: .9rem;
+        margin-top: 20px;
+        display: block;
+        box-shadow: 0px 0px 10px grey;
+        border-radius: 6px;
+        padding-right: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+@media (max-width:576px) and (min-width: 480px) {
+
+    .mainsec1 {
+        right: 10px;
+    }
+
+    .headh2 {
+        width: 80%;
+        top: 3rem;
+        text-align: center;
+        margin-left: 45px;
+        font-size: 20px;
+    }
+
+    .topplan {
+        height: 25px;
+        width: 190px;
+        padding-left: 5px;
+        margin-left: 11%;
+    }
+
+    .sidebarmain {
+        display: none;
+    }
+
+    .datadiv {
+        width: 100%;
+        left: 0;
+    }
+
+    .datadivsub {
+        display: block;
+        margin-top: 80px;
+    }
+
+    .pricedetail {
+        width: 75%;
+        height: 280px;
+        padding-top: 5px;
+        margin-left: 65px;
+    }
+
+
+    .details2 {
+        width: 90%;
+        margin-left: 1.5rem;
+        margin-top: 20px;
+        display: flex;
+        box-shadow: 0px 0px 10px grey;
+        border-radius: 6px;
+        padding-right: 10px;
+    }
+}
+
+
+
+
+@media (max-width:768px) and (min-width:576px) {
+
+
+
+    .mainsec1 {
+        right: 10px;
+    }
+
+    .headh2 {
+        width: 80%;
+        top: 3rem;
+        text-align: center;
+        margin-left: 45px;
+        font-size: 20px;
+    }
+
+    .topplan {
+        height: 25px;
+        width: 190px;
+        padding-left: 5px;
+        margin-left: 11%;
+    }
+
+    .sidebarmain {
+        display: none;
+    }
+
+    .datadiv {
+        width: 100%;
+        left: 0;
+    }
+
+    .datadivsub {
+        display: block;
+        margin-top: 80px;
+    }
+
+    .pricedetail {
+        width: 80%;
+        height: 280px;
+        padding-top: 5px;
+        margin-left: 70px;
+    }
+
+
+    .details2 {
+        width: 90%;
+        margin-left: 1.8rem;
+        margin-top: 20px;
+        display: flex;
+        box-shadow: 0px 0px 10px grey;
+        border-radius: 6px;
+        padding-right: 10px;
+    }
+}
+
+
+
+
+@media (max-width:992px) and (min-width:769px) {
+
+
+
+    .mainsec1 {
+        right: 10px;
+    }
+
+    .headh2 {
+        width: 80%;
+        top: 3rem;
+        text-align: center;
+        margin-left: 70px;
+        font-size: 20px;
+    }
+
+    .topplan {
+        height: 25px;
+        width: 190px;
+        padding-left: 5px;
+        margin-left: 68%;
+    }
+
+    .sidebarmain {
+        height: 1480px;
+    }
+
+    .datadiv {
+        width: 80%;
+        left: 20%;
+    }
+
+    .datadivsub {
+        display: block;
+        margin-top: 80px;
+        margin-left: 110px;
+    }
+
+    .pricedetail {
+        width: 50%;
+        height: 280px;
+        padding-top: 5px;
+    }
+
+
+    .details2 {
+        width: 70%;
+        margin-left: 5.8rem;
+        margin-top: 20px;
+        display: flex;
+        box-shadow: 0px 0px 10px grey;
+        border-radius: 6px;
+        padding-right: 10px;
+    }
+}
+
+
+
+@media (max-width:1200px) and (min-width:992px) {
+
+    
+
+    .headh2 {
+        width: 80%;
+        top: 3rem;
+        text-align: center;
+        margin-left: 70px;
+        font-size: 20px;
+    }
+
+    .topplan {
+        height: 25px;
+        width: 190px;
+        padding-left: 5px;
+        margin-left: 68%;
+    }
+
+    
+
+    .datadiv {
+        width: 90%;
+        left: 10%;
+    }
+
+    .datadivsub {
+        display: flex;
+        margin-top: 80px;
+        margin-left: 100px;
+    }
+
+    .pricedetail {
+        width: 30%;
+        height: 280px;
+        padding-top: 5px;
+        margin-left: 10px;
+    }
+
+
+    .details2 {
+        width: 42%;
+        margin-left: 2rem;
+        margin-top: 20px;
+        display: block;
+        box-shadow: 0px 0px 10px grey;
+        border-radius: 6px;
+        padding-right: 10px;
+    }
+    .detailmain{
+        margin-left: 5rem;
+        display:flex;
+    }
+}
+
+
+
+@media (max-width:1600px) and (min-width:1200px) {
+
+
+    .details2 {
+        width: 44%;
+        margin-left: 1rem;
+        margin-top: 20px;
+        padding-right: 10px;
+    }
+    .detailmain{
+        margin-left: 5rem;
+        display:flex;
+    }
+}
